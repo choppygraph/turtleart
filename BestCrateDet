@@ -1,0 +1,9 @@
+x=float(input("What is your items percentage number?\nEnter as a percentage, ex- 40"))
+k=x*0.01
+b=1//k+1
+print("It will take ",1//k+1,"crates to get your item\n")
+c=input("Is your crate special or regular?")
+if c==("special"):
+    print("The wave you will need to get to is ",(3*b*5)+15," ")
+elif c==("regular"):
+    print("The wave you will need to get to",(2*b*5-15)," ")
